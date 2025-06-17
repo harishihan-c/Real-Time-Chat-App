@@ -23,5 +23,14 @@ See the full UI/UX design prototype on Figma:
   
 
 ## 📁 Project Structure
+-src/
+│
+├── components/ 
+├── pages/ 
+├── assets/
+├── App.css
+├── App.jsx 
+├── main.css
+└── main.jsx 
 
 
