@@ -1,25 +1,38 @@
 import React from 'react';
 import "./Login.css";
+import assets from '../../assets/assets.js'
 
 const Login = () => {
     return(
-        <div className="login">
-            <img src='' alt='logo' />
-            <form className="login-form">
-                <h2>Sign Up</h2>
-                <input type="text" placeholder="Username" className="username-input"/>
-                <input type="email" placeholder="Email Address" className="email-input"/>
-                <input type="password" placeholder="Password" className="password-input"/>
-                <input type="password" placeholder="Confirm Password" className="confirm-password-input"/>
-                <button type="submit">Sign Up</button>
-                <div className="login-term">
-                    <input type="checkbox" />
-                    <p>I accept the terms and conditions</p>
+        <div className="signup">
+
+            <div className="background">
+                <div className="logo">
+                    <img className="img-logo" src={assets.logo}/>
+                    <h4>Vanga Kathaipam</h4>
                 </div>
-                <div className="login-forgot">
-                    <p>Already have an account <span>Sign in</span></p>
-                </div>
-            </form>
+
+                <img className="img-background" src={assets.background}/>
+            </div>
+           {/* <div className="form-section">*/}
+           {/*     <h2> Create an account</h2>*/}
+           {/*     <div className="google">*/}
+           {/*         <img />*/}
+           {/*         <input placeholder="Signup with google" />*/}
+           {/*     </div>*/}
+           {/*     <div className="facebook">*/}
+           {/*         <img />*/}
+           {/*         <input placeholder="Signup with facebook" />*/}
+           {/*     </div>*/}
+
+           {/*     <input placeholder="Email Address" />*/}
+           {/*     <input placeholder="Password" />*/}
+           {/*     <input type="radio" id="correct" />*/}
+           {/*     <label for="correct" > I agree to term and conditions </label>*/}
+           {/*     <button className="button"> Signup</button>*/}
+           {/*     <p>Already have an account log in</p>*/}
+
+           {/*</div>*/}
         </div>
     )
 }
