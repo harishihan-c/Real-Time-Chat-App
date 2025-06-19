@@ -1,12 +1,37 @@
-# React + Vite
+# 💬 Realtime Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern realtime chat application built with **React** and **Firebase**, featuring user authentication, cloud storage, and real-time messaging.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔒 Firebase Authentication (Google Sign-In)
+- 💬 Realtime messaging with Firestore
+<!--- 📁 File sharing (images, docs)-->
+- 🖼️ UI/UX designed in Figma
+- 📱 Responsive design for mobile & desktop
+- 🌙 Light & Dark mode (optional)
 
-## Expanding the ESLint configuration
+## 🖌️ Figma Design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+See the full UI/UX design prototype on Figma:
+👉 [View Figma Design](https://www.figma.com/design/djAnPBNRJBvSrJxSpo0zlw/Untitled?node-id=0-1&t=P4XPpywTpDJEmndw-1)
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React, Css
+- **Backend-as-a-Service:** Firebase (Authentication, Firestore, Storage)
+  
+
+## 📁 Project Structure
+<pre><code>
+  src/ 
+  │ 
+  ├── components/
+  ├── pages/ 
+  ├── assets/ 
+  ├── App.css 
+  ├── App.jsx 
+  ├── main.css 
+  └── main.jsx </code></pre>
+
+
