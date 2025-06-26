@@ -156,3 +156,16 @@
     color: #AAAAAA;
     font-size: 13px;
 }
+
+@media screen and (max-width: 880px){
+    .background{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .background{
+        display: none;
+    }
+}
+
