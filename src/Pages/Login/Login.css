@@ -1,22 +1,20 @@
-
-
 .signup{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .background{
     width: 350px;
-    height: 550px;
+    height: 600px;
     border-radius: 35px;
     background-color: #F0FDF1;
     display: flex;
     align-items: center;
     position: relative;
+    margin-top: 50px;
 }
 
 .background img{
@@ -45,3 +43,129 @@
 .logo img{
     width: 24px;
 }
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    min-height: 550px;
+    margin-top: 50px;
+    padding: 20px 60px;
+}
+
+.form-section h2{
+    margin-bottom: 55px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.form-section .google,
+.form-section .facebook{
+    height: 45px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.form-section .google button,
+.form-section .facebook button{
+    width: 100%;
+    padding: 10px 30px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 13px;
+}
+
+.form-section .google button:hover,
+.form-section .facebook button:hover{
+    cursor: pointer;
+}
+
+.form-section .google img{
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 42px;
+}
+.form-section .facebook img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+}
+
+.email-input,
+.password-input{
+    margin-top: 30px;
+    padding:10px 30px;
+}
+
+.term{
+    display: flex;
+    margin-top: 20px;
+    font-size: 10px;
+    gap: 10px;
+}
+
+.signup-button{
+    margin: 40px auto 20px;
+    height: 40px;
+    width: 50%;
+    background-color: #27C43C;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.login-text{
+    font-size: 11px;
+    text-align: center;
+    color: dimgrey;
+}
+
+.login-text a{
+    text-decoration: none;
+    color: black;
+}
+
+.or-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px;
+}
+
+.or-box .left{
+    width: 150px;
+    height: 2px;
+    background-color: #cccccc;
+}
+
+.or-box .right{
+    width: 150px;
+    height: 2px;
+    background-color: #cccccc;
+}
+
+.or-box span{
+    color: #AAAAAA;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 880px){
+    .background{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .background{
+        display: none;
+    }
+}
+
