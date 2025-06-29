@@ -28,6 +28,9 @@ See the full UI/UX design prototype on Figma:
   │ 
   ├── components/
   ├── pages/ 
+      ├── login
+      ├── chat
+      ├── profile
   ├── assets/ 
   ├── App.css 
   ├── App.jsx 
