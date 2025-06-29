@@ -127,9 +127,10 @@
     color: dimgrey;
 }
 
-.login-text a{
+.login-text span{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .or-box{
