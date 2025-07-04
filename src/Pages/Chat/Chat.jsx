@@ -3,8 +3,12 @@ import "./Chat.css";
 
 const Chat = () => {
     return(
-    <div>
-
+    <div className="main">
+        <div className="chat-container">
+            <LeftSide />
+            <ChatBox />
+            <RightSide />
+        </div>
     </div>
     )
 }
