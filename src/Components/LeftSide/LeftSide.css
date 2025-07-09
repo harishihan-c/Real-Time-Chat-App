@@ -1,0 +1,69 @@
+.ls{
+    padding: 30px 10px 10px;
+    background-color: white;
+    height: 90vh;
+}
+
+.ls-nav p{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ls-nav input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding:5px 10px;
+    border-radius: 5px;
+    background-color: rgba(197, 197, 197, 0.48);
+}
+
+.ls-nav input::placeholder{
+    color: #4F4F4F;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.ls-contact{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    overflow-y: scroll;
+}
+
+.ls-contact .contact{
+    display: flex;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.ls-contact .contact:hover{
+    background-color: #89EC96;
+    border-radius: 5px;
+}
+
+
+.contact img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact-details{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-details p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.contact-details span{
+    font-size: 12px;
+}
