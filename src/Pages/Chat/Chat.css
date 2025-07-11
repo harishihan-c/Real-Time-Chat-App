@@ -12,6 +12,7 @@
     max-width: 900px;
     display: grid;
     grid-template-columns: 2fr 3fr;
+    border-radius: 5px;
 }
 
 
