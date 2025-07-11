@@ -10,14 +10,15 @@ const LeftSide = () => {
                 <input type="text" placeholder="Search" />
             </div>
             <div className="ls-contact">
-                <div className="contact" >
-                    <img src={assets.contact1} />
-                    <div className="contact-details">
-                        <p>Harry</p>
-                        <span>Hello nigga</span>
+                {Array(12).fill("").map((item, index) => (
+                    <div key={index} className="contact" >
+                        <img src={assets.contact1} />
+                        <div className="contact-details">
+                            <p>Harry</p>
+                            <span>Hello nigga</span>
+                        </div>
                     </div>
-                </div>
-
+                ))}
             </div>
         </div>
     )
