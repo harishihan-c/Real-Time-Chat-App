@@ -1,0 +1,30 @@
+.chatbox{
+    height: 90vh;
+    background-color: #f0f8f0;
+}
+
+.chatbox-top{
+    height: 60px;
+    background-color: #a7ffb2;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.chatbox-top img{
+    width: 40px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.chatbox-top p {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.chatbox-top span{
+    font-size: 10px;
+}
