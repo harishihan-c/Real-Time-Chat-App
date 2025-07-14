@@ -1,11 +1,12 @@
 .chatbox{
     height: 90vh;
-    background-color: #f0f8f0;
+    background-color: #F2F8F3;
+    position: relative;
 }
 
 .chatbox-top{
     height: 60px;
-    background-color: #a7ffb2;
+    background-color: #BDF5C3;
     display: flex;
     gap: 15px;
     align-items: center;
@@ -27,4 +28,43 @@
 
 .chatbox-top span{
     font-size: 10px;
+}
+
+.chatbox-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #DDFBE0;
+}
+
+.chatbox-bottom input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.chatbox-bottom input::placeholder{
+    color: #686868;
+}
+
+.chatbox-bottom label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.chatbox-bottom .attach{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.chatbox-bottom .send{
+    width: 28px;
+    margin-right: 10px;
+    cursor: pointer;
 }

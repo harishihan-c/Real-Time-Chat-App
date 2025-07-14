@@ -12,8 +12,10 @@ const ChatBox = () => {
             </div>
 
             <div className="chatbox-bottom">
+                <input type="file" id="image" accept="image/jpeg, image/png" hidden/>
+                <label htmlFor="image"> <img className="attach" src={assets.attach}/></label>
                 <input type="text" placeholder="Type a message" />
-                <input type="file" />
+                <img className="send" src={assets.send}/>
             </div>
         </div>
     )
