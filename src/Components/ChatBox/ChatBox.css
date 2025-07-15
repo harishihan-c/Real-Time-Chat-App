@@ -59,12 +59,35 @@
     cursor: pointer;
 }
 .chatbox-bottom .attach{
-    width: 20px;
+    width: 18px;
     margin-left: 10px;
 }
 
 .chatbox-bottom .send{
-    width: 28px;
+    width: 22px;
     margin-right: 10px;
     cursor: pointer;
+}
+
+.chatbox-message{
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.chatbox-message .message-date{
+    width: 60px;
+    margin: 20px auto;
+    padding: 3px;
+    border-radius: 4px;
+    background-color: rgba(104, 104, 104, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.message-date span{
+    font-size: 10px;
 }
