@@ -17,11 +17,27 @@ const ChatBox = () => {
                 </div>
 
                 <div className="r-message">
-                    <span>Hello</span>
+                        <p className="msg">  quia quidem, quisquam quos reprehenderit.</p>
+                        <div>
+                            <img src={assets.contact1} />
+                            <p>11.00 AM</p>
+                        </div>
                 </div>
 
                 <div className="s-message">
-                    <span>I am fine</span>
+                    <img className="msg-img" src={assets.contact1} />
+                    <div>
+                        <img src={assets.contact1} />
+                        <p>11.00 AM</p>
+                    </div>
+                </div>
+
+                <div className="s-message">
+                        <p className="msg">  quia quidem, quisquam quos reprehenderit.</p>
+                        <div>
+                            <img src={assets.contact1} />
+                            <p>11.00 AM</p>
+                        </div>
                 </div>
             </div>
 
