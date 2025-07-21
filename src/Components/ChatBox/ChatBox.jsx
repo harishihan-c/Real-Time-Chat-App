@@ -9,7 +9,6 @@ const ChatBox = () => {
             <div className="chatbox-top">
                 <img src={assets.contact1} />
                 <p> Harry <span>online</span></p>
-                <img src={assets.info} className="info-icon"/>
             </div>
 
             <div className="chatbox-message">
