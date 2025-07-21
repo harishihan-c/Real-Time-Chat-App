@@ -13,6 +13,7 @@
     display: grid;
     grid-template-columns: 2fr 3fr;
     border-radius: 5px;
+    position: relative;
 }
 
 
