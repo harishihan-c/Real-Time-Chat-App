@@ -30,6 +30,12 @@
     font-size: 10px;
 }
 
+.chatbox-top .info-icon{
+    width: 30px;
+    margin-left: auto;
+    margin-right: 30px;
+    cursor: pointer;
+}
 .chatbox-bottom{
     position: absolute;
     bottom: 0;
