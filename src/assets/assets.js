@@ -5,6 +5,7 @@ import logo from './communication.png'
 import contact1 from './girl-5560212_1280.jpg'
 import attach from './Attach.png'
 import send from './Email-Send.png'
+import info from './info.png'
 
 const assets = {
     google,
@@ -13,7 +14,8 @@ const assets = {
     logo,
     contact1,
     attach,
-    send
+    send,
+    info
 }
 
 export default assets;
