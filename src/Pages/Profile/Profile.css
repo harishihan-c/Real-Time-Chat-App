@@ -1,0 +1,75 @@
+.profile{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #186323;
+
+}
+
+.profile-container{
+    width: 500px;
+    height: 80vh;
+    background-color: #ffffff;
+    border-radius: 12px;
+    position: relative;
+}
+
+.profile-container .close{
+    width: 12px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.profile-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-container h3{
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.profile-container label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.profile-container label img{
+    width: 90px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 200px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #e3e3e3;
+    margin-top: 20px;
+}
+
+form input::placeholder{
+    font-size: 12px;
+}
+
+form button{
+    width: 200px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 13px;
+    background-color: #27C43C;
+}
