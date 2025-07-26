@@ -2,12 +2,18 @@ import React from 'react';
 import "./Login.css";
 import assets from '../../assets/assets.js'
 import {useState} from 'react'
+import {signup, login} from "../../Config/authentication.js"
 
 const Login = () => {
 
-    const [currentState, setState] = useState("SignUp");
+    const [currentState, setState] = useState("Signup");
 
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
+    const onSubmitHandler = () =>{
+        currentState === "Signup" ? signup(email, password):login;
+    }
     return(
         <div className="signup">
 
@@ -23,7 +29,7 @@ const Login = () => {
 
             <div className="form-section">
                 {
-                    currentState == "Signup"
+                    currentState === "Signup"
                     ?<h2> Create an account</h2>
                     :<h2> Log in account</h2>
                 }
@@ -42,19 +48,20 @@ const Login = () => {
                     <div className="right"></div>
                 </div>
 
-                <input placeholder="Email Address" className="email-input"/>
-                <input placeholder="Password" className="password-input" />
+                <input onChange={(e) => {setEmail(e.target.value)}} placeholder="Email Address" className="email-input"/>
+                <input onChange={(e) => {setPassword(e.target.value)}}  placeholder="Password" className="password-input" />
                 {
-                    currentState == "Signup"
+                    currentState === "Signup"
                     ? <div className="term">
                             <input type="checkbox" id="correct" />
                             <label htmlFor="correct" > I agree to term and conditions </label>
                         </div>
                     :null
                 }
-                <button className="signup-button"> {currentState}</button>
+                <button className="signup-button" onClick={onSubmitHandler}> {currentState}
+                </button>
                 {
-                    currentState == "Signup"
+                    currentState === "Signup"
                     ?<p className="login-text">Already have an account? <span onClick = {() => setState("Login")}>Log in</span></p>
                     :<p className="login-text">Don't have an account? <span onClick = {() => setState("Signup")}>Sign up</span></p>
 

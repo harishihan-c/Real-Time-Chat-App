@@ -8,6 +8,8 @@ import send from './Email-Send.png'
 import info from './info.png'
 import settings from './settings.png'
 import close from './close.png'
+import user from './user.png'
+import profileUser from './profile-user.png'
 
 const assets = {
     google,
@@ -19,7 +21,9 @@ const assets = {
     send,
     info,
     settings,
-    close
+    close,
+    user,
+    profileUser
 }
 
 export default assets;
