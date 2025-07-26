@@ -2,7 +2,7 @@ import React from 'react';
 import "./Login.css";
 import assets from '../../assets/assets.js'
 import {useState} from 'react'
-import {signup} from "../../Config/authentication.js"
+import {signup, login} from "../../Config/authentication.js"
 
 const Login = () => {
 
@@ -12,7 +12,7 @@ const Login = () => {
     const [password, setPassword] = useState("");
 
     const onSubmitHandler = () =>{
-        currentState === "Signup" ? signup(email, password):null;
+        currentState === "Signup" ? signup(email, password):login;
     }
     return(
         <div className="signup">
