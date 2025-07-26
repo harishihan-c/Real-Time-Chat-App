@@ -1,11 +1,11 @@
 import {auth, db} from "./firebase.js";
-import {CreateUserWithEmailAndPassword} from "firebase/auth";
+import {createUserWithEmailAndPassword} from "firebase/auth";
 import {setDoc, doc} from "firebase/firestore";
 
 export const signup = async (email, password) => {
     try{
         //Get the email, password and authenticate it
-        const response = await CreateUserWithEmailAndPassword( auth, email, password);
+        const response = await createUserWithEmailAndPassword( auth, email, password);
         const user = response.user;
 
         //store the email, password and other details on the database
