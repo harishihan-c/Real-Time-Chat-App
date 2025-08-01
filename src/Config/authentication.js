@@ -19,6 +19,8 @@ export const signup = async (email, password) => {
         await setDoc(doc(db, "chat", user.uid),{
             chatData: []
         })
+
+
     }
     catch(error){
         console.error(error);
