@@ -12,7 +12,7 @@ const Login = () => {
     const [password, setPassword] = useState("");
 
     const onSubmitHandler = () =>{
-        currentState === "Signup" ? signup(email, password):login;
+        currentState === "Signup" ? signup(email, password):login(email,password);
     }
     return(
         <div className="signup">
