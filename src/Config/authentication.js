@@ -11,6 +11,7 @@ export const signup = async (email, password) => {
         //store the email, password and other details on the database
         await setDoc(doc(db, "user", user.uid), {
             id: user.uid,
+            name: "",
             email,
             Avatar: "",
             lastSeen : Date.now()
