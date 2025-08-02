@@ -24,7 +24,7 @@ const AppContextProvider = (props) => {
             setUserData(userData);
             console.log(userData);
 
-            if(userData.avatar || userData.name){
+            if(userData.avatar && userData.name){
                 navigate('/chat');
             }else{
                 navigate('/profile');
